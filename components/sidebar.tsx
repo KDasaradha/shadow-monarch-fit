@@ -132,7 +132,7 @@ export function Sidebar({ className }: SidebarProps) {
       <div className="px-3 absolute bottom-4 w-full pr-8">
         <Button 
           variant="outline" 
-          className="w-full justify-start" 
+          className="justify-start" 
           onClick={logout}
         >
           <LogOut className="mr-2 h-4 w-4" />
